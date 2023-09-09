@@ -1,5 +1,9 @@
-val= int(input("Enter a multiple of 7"))
-while val%7 !=0:
-    val = int(input("Enter a multiple of 7"))
-else:
-    print("%d is a multiple of 7" %val)
+footballer=input("Enter a footballer you like: ")
+
+while footballer == str(" "):
+    print("Its a shame you have no favourite footballer!")
+
+    footballer = input("Enter a footballer you like:")
+print("%s is your favourite footballer." %footballer)
+
+
